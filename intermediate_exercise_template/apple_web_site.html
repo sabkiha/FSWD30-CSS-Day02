@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style-apple.css">
+<title>Blank Page Layout</title>
+
+<style>
+
+body, a {
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+#logo {
+	background:none;
+}
+
+div {
+	text-align:center;
+	margin:18px auto;
+	max-width:100%;
+	padding:20px 0;
+}
+
+.myBg {	
+	background-color: #cccccc;
+}
+
+#navi ul {
+	margin:0; padding:0;
+}
+
+#navi ul li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#threeCol > div {
+	float: left;
+	width: 32%;
+	/*display:inline-block;*/
+	padding:0;
+	margin:0;
+}
+
+#threeCol div div {
+	background-color: #cccccc;
+	padding: 20px 0;
+	margin: 0;
+}
+
+#copy {
+	clear: both;
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="logo" style="max-width: 175px"><img src="https://seeklogo.com/images/A/apple-logo-52C416BDDD-seeklogo.com.png" ></div>
+
+<div id="navi" class="myBg">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</div>
+
+<div id="feature" class="myBg">Feature</div>
+
+<div id="threeCol" style="padding: 0; margin: 0;">
+	<div style="padding-right: 2%;"><div> MacBook products <br> Information
+	</div></div>
+	<div><div>Get a new iPhone every year <br>
+ Choose your carrier <br>
+ Low monthly payments <br>
+ iPhone protection with AppleCare+</div></div>
+	<div style="padding-left: 2%;"><div>Apple Pay Apple Pay lets you use your iPhone to pay securely and easily at over a million store locations across the United States and within apps — with a single touch.</div></div>
+</div>
+
+<div id="copy">
+	<div class="myBg">&copy; Copyright 2017</div>
+</div>
+
+</body>
+</html>

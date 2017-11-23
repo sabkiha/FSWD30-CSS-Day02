@@ -1,0 +1,7 @@
+body {
+    background: lightgrey;
+    background-image: url("https://cmeimg-a.akamaihd.net/640/ppds/83d9c8dd-08a8-47d5-9b1d-06b81d65f3ef.jpg"), 
+    url("https://i.pinimg.com/originals/cd/86/42/cd864293f3b5835185b8e0268ee92a5d.jpg");
+  background-position: right top, left top;
+  background-repeat: no-repeat, repeat;
+}

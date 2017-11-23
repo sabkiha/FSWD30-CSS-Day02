@@ -15,12 +15,16 @@ a:active {
 }
 
 body {
-    background: #f4f4f4 url(pagebg.gif) repeat-y top center;
+    background: lightgrey;
     font: 69%/1.5em 'Lucida Sans Unicode', 'Lucida Grande', verdana, arial, sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: url("https://cmeimg-a.akamaihd.net/640/ppds/83d9c8dd-08a8-47d5-9b1d-06b81d65f3ef.jpg"), 
+    url("https://i.pinimg.com/originals/cd/86/42/cd864293f3b5835185b8e0268ee92a5d.jpg");
+  background-position: center bottom, left top;
+  background-repeat: no-repeat;
 }
 
 p {
